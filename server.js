@@ -297,5 +297,5 @@ app.listen(PORT, () => {
         if (deletedCount > 0) {
             console.log(`Cleaned up ${deletedCount} old files`);
         }
-    }, 1000); // Run every 15 minutes
+    }, 1000000); // Run every 15 minutes
 });
